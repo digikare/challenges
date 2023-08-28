@@ -6,11 +6,12 @@ Bienvenue chez Digikare ! Nous recherchons des développeurs front-end talentueu
 
 ## Contexte
 
-L'objectif de cet exercice est de développer une application qui permettra de créer des suivis de patients, de lister les suivis précédemment créés et de visualiser les détails d'un suivi en particulier. De plus, nous souhaitons que vous implémentiez la fonctionnalité d'annulation d'un suivi, mais uniquement si la date d'intervention n'est pas encore passée.
+L'objectif de cet exercice est de développer une application qui permettra de créer des suivis de patients, de lister les suivis précédemment créés. De plus, nous souhaitons que vous implémentiez la fonctionnalité d'annulation d'un suivi, mais uniquement si la date d'intervention n'est pas encore passée.
+Un design hyper léché n'est pas requis, nous nous attendons à ce que le code soit testé.
 
 ## **Explications de l'exercice**
 
-Vous devez développer une application front-end avec le Framework de votre choix en Typescript (React et Angular de préférence), qui comprendra les fonctionnalités suivantes :
+Vous devez développer une application front-end avec le Framework de votre choix en Typescript (Angular de préférence, React / Vue / Svelte ), qui comprendra les fonctionnalités suivantes :
 
 1. **Créer un suivi patient** : En tant qu’utilisateur “chirurgien” je peux créer un suivi patient, y compris les informations sur le patient lui-même et les détails de l'intervention. Les champs obligatoires doivent être correctement validés avant d'enregistrer les données.
     1. Un email
@@ -21,8 +22,7 @@ Vous devez développer une application front-end avec le Framework de votre choi
         2. Prothèse de hanche
         3. Ligament croisé Antérieur
 2. **Lister les suivis précédemment créés** : Une fois qu'un suivi a été créé, il devrait être répertorié dans une vue de liste. Les informations clés telles que le nom du patient, la date d'intervention, etc., doivent être affichées pour chaque suivi.
-3. **Afficher les détails d'un suivi** : Lorsque l'utilisateur sélectionne un suivi dans la liste, les détails complets du suivi doivent être affichés. Cela comprend toutes les informations fournies lors de la création du suivi.
-4. **Annuler un suivi** : L'utilisateur devrait avoir la possibilité d'annuler un suivi tant que la date d'intervention n'est pas encore passée. Si la date d'intervention est déjà passée, l'option d'annulation ne doit pas être disponible.
+3. **Annuler un suivi** : L'utilisateur devrait avoir la possibilité d'annuler un suivi tant que la date d'intervention n'est pas encore passée. Si la date d'intervention est déjà passée, l'option d'annulation ne doit pas être disponible.
 
 # API :
 
@@ -33,12 +33,9 @@ Le fichier API Swagger décrivant l’API est disponible dans  [api-swagger.yaml
 En tant qu'équipe chez Digikare, nous valorisons les bonnes pratiques de développement. Si vous pouvez démontrer votre compréhension et votre application des concepts suivants, cela sera considéré comme un avantage supplémentaire :
 
 - **Clean Architecture**
-- **Tests automatisés**
 - **State Management**
 - **Mobile first**
-- **Test-Driven Development (TDD)**
 - **SOLID**
-- **Domain-Driven Design (DDD)**
 
 ## **Instructions supplémentaires**
 
