@@ -2,16 +2,18 @@
 
 # Introduction
 
-Bienvenue chez Digikare ! Nous recherchons des développeurs front-end talentueux pour rejoindre notre équipe. Dans cet exercice, nous vous proposons de créer une application web de suivi des patients.
+Bienvenue chez Digikare ! Nous recherchons des développeurs front-end talentueux pour rejoindre notre équipe.
+Dans cet exercice, nous vous proposons de simuler une tâche courante que vous pourriez rencontrer dans votre quotidien en tant que développeur front-end.
 
 ## Contexte
 
 L'objectif de cet exercice est de développer une application qui permettra de créer des suivis de patients, de lister les suivis précédemment créés. De plus, nous souhaitons que vous implémentiez la fonctionnalité d'annulation d'un suivi, mais uniquement si la date d'intervention n'est pas encore passée.
-Un design hyper léché n'est pas requis, nous nous attendons à ce que le code soit testé.
+Cette tâche reflète des scénarios réels que vous pourriez rencontrer en travaillant avec nous.
+
 
 ## **Explications de l'exercice**
 
-Vous devez développer une application front-end avec le Framework de votre choix en Typescript (Angular de préférence, React / Vue / Svelte ), qui comprendra les fonctionnalités suivantes :
+Vous devez développer une application front-end avec le Framework de votre choix en Typescript (Angular de préférence), qui comprendra les fonctionnalités suivantes :
 
 1. **Créer un suivi patient** : En tant qu’utilisateur “chirurgien” je peux créer un suivi patient, y compris les informations sur le patient lui-même et les détails de l'intervention. Les champs obligatoires doivent être correctement validés avant d'enregistrer les données.
     1. Un email
@@ -26,7 +28,7 @@ Vous devez développer une application front-end avec le Framework de votre choi
 
 # API :
 
-Le fichier API Swagger décrivant l’API est disponible dans  [api-swagger.yaml](docs/api-swagger.yaml)
+Lancer le serveur préconfiguré en local avec `docker-compose` en suivi  [cette documentation](./api/README.md) 
 
 ## **Bonus**
 
